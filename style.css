@@ -1,0 +1,101 @@
+.font{
+    background-color: rgb(238, 237, 237);
+    height: 120px;
+}
+.mot2{
+    background-color: black;
+    height: 50px;
+    margin-top: -2%;
+    color: white;
+}
+#mot3 {
+    
+        display: inline-block;
+        width: 4%;
+        margin-top: 1%;
+    }
+    .mot3 :hover{
+        border-top: thin solid blue;
+        text-align: center;
+    }
+    .mon{
+        width: 13%;
+        border-color: rgb(214, 170, 177);
+        
+    }
+    .t{
+        font-size: 1px;
+    }
+.toi{
+   color:palevioletred  ;
+}
+.toi1{
+    border-color: pink;
+    background-color: rgb(248, 238, 240);
+}
+.nom2{
+    margin-left: 80%;
+    margin-top: -8%;
+}
+.form1{
+    width: 18%;
+    margin-left:80% ;
+}
+.nom3{
+    border-color: palevioletred;
+}
+.nom{
+    color: palevioletred;
+}
+.text{
+    border-color: rgb(248, 176, 188);
+    border-radius: 2px;
+    background-color: rgb(247, 235, 237);
+}
+.text1{
+    width: 73px;
+    border-color: palevioletred;
+    border-radius: 3%;
+}
+.mot,.mot1{
+    
+margin-left: 80%;
+}
+.mot{
+    padding-top: 3%;
+    font-size: 20px;
+}
+.mot1{
+    font-size: 15px;
+}
+@media  screen and (min-width:320px) and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .mot,.mot1{
+margin-left: 28%;
+    }
+    .mot2{
+        margin-top: -6%;
+    }
+    #mot3 {
+    
+        margin-left: -5px;
+        width: 45px;
+        margin-top: 3%;
+    }
+    #mot3 :hover{
+        border-top: thin solid blue;
+        text-align: center;
+    }
+    .nom2{
+        margin-top: 7%;
+        margin-left: -1%;
+    }
+    .form1{
+        margin-left:-1% ;
+    }
+    .text1{
+        width: 70px;
+    }
+}
